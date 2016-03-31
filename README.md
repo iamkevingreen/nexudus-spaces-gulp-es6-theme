@@ -14,7 +14,9 @@ To add modern practices to the Nexudus starter theme.
 - [ ] Add default styling that doesn't relie on Bootstrap (near? bourbon? custom?)
 - [ ] Attempt to remove jQuery dependencies (seems nexudus relies heavily on fullcalendar so might not be possible)
 - [ ] Move all inline/external CSS into the build process
-- [ ] Move as much of the external Javascript into the build process via NPM 
+- [ ] Move as much of the external Javascript into the build process via NPM
+
+#### Up and Running:
 
 Navigate to the root and return
 ```
@@ -33,6 +35,7 @@ When prepared to run for production environment run:
 npm run gulp production
 ```
 
+#### Legacy Nexudus Fork
 
 These are the original files for the default theme in [Nexudus Spaces](http://coworking.nexudus.com/ "Nexudus Spaces").
 
