@@ -1,6 +1,21 @@
 Nexudus Spaces - GULP + SASS + ES6 Theme
 ============================
 
+Originally forked from: [Nexudus Starter](https://github.com/Nexudus/nexudus-spaces-default-theme)
+
+#### Purpose
+
+To add modern practices to the Nexudus starter theme.
+
+- [x] Add in SASS compiling
+- [x] Add in Webpack and Javascript compiling and allow modular ES6 Support
+- [ ] Remove Bootstrap
+- [ ] Add custom grid system
+- [ ] Add default styling that doesn't relie on Bootstrap (near? bourbon? custom?)
+- [ ] Attempt to remove jQuery dependencies (seems nexudus relies heavily on fullcalendar so might not be possible)
+- [ ] Move all inline/external CSS into the build process
+- [ ] Move as much of the external Javascript into the build process via NPM 
+
 Navigate to the root and return
 ```
 npm install
