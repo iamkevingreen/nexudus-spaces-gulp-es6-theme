@@ -1,0 +1,57 @@
+{
+  "root": {
+    "src": "./src",
+    "dest": "./public"
+  },
+
+  "tasks": {
+    "browserSync": {
+      "server": {
+        "baseDir": "public"
+      }
+    },
+
+    "static": {
+      "src": "static",
+      "dest": "./"
+    },
+
+    "js": {
+      "src": "javascripts",
+      "dest": "../",
+      "entries": {
+        "app": ["./js.js"]
+      },
+      "extensions": ["js", "json"],
+      "babel": {
+        "presets": ["es2015", "stage-1"],
+        "plugins": []
+      },
+      "extractSharedJs": false
+    },
+
+    "css": {
+      "src": "stylesheets",
+      "dest": "../",
+      "autoprefixer": {
+        "browsers": ["last 3 version"]
+      },
+      "sass": {
+        "noCache": true,
+        "lineNumbers": false,
+        "quiet": true,
+        "indentedSyntax": false,
+        "includePaths": [
+          "./node_modules/normalize.css"
+        ]
+      },
+      "extensions": ["sass", "scss", "css"]
+    },
+
+    "fonts": {
+      "src": "fonts",
+      "dest": "fonts",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    }
+  }
+}
